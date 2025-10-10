@@ -1,0 +1,75 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f9fc; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1#top {
+    text-align: center;
+    color: #2c3e50; 
+    font-size: 2.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e6ed;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+div#topic {
+    font-weight: bold;
+    border-color: #3498db;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #c9d2de;
+    margin: 20px 0;
+}
+
+textarea {
+    width: 98%;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    font-family: inherit;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button[onclick="postFunction()"] {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+button[onclick="postFunction()"]:hover {
+    background-color: #45a049;
+}
+
+button[onclick="clearFunction()"] {
+    background-color: #f44336; 
+    color: white;
+}
+
+button[onclick="clearFunction()"]:hover {
+    background-color: #d32f2f;
+}

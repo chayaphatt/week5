@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Blogger</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="main-container">
+        <h2 id="top" class="forum-header"></h2>
+        
+        <div class="posts">
+            <p id="topic" class="post"></p>
+            <hr class="post-separator"> <p id="reply1" class="reply"></p>
+            <hr class="post-separator"> <p id="reply2" class="reply"></p>
+            <hr class="post-separator"> </div>
+        
+        <div class="controls">
+            <textarea id="message" placeholder="Type your message..."></textarea> 
+            <button type="button" class="btn" onclick="postFunction()">Post</button>
+            <button type="button" class="btn" onclick="clearFunction()">Clear</button>
+        </div>
+    </div>
+</body>
+</html>
